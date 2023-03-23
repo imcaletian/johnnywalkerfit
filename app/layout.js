@@ -1,4 +1,8 @@
 import './globals.css'
+import Nav from './nav'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Footer from './Footer';
 
 export const metadata = {
   title: 'Create Next App',
@@ -8,7 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
