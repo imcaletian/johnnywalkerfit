@@ -18,7 +18,13 @@ module.exports = {
       'accent-4': '#02121f',
       'error': '#6e2b46',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        dela: ['var(--font-dela)'],
+        inter: ['var(--font-inter)s'],
+        poppins: ['var(--font-poppins)']
+      },
+    },
   },
   plugins: [],
 }
