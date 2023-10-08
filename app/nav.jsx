@@ -4,10 +4,19 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import NavMenu from "./component/navMenu"
-
+import { motion } from "framer-motion"
+import { usePathname } from "next/navigation"
 export default function Nav () {
     
     const [sideNav, setSideNav] = useState (false)
+
+    const links = [
+        {href: "/", label: "Home"},
+        {href: "/service", label: "Service"},
+        {href: "/about", label: "About Johnny"},
+        {href: "/contact", label: "Contact"},
+    ]
+    const path = usePathname();
 
     return (
         <div>
@@ -17,13 +26,20 @@ export default function Nav () {
                 <Image src="/icons/bars-solid.svg" width={24} height={24} alt="" className="invert" />
              </button>
             <Link href="/" className="py-4">
-                <h1 className="font-bold text-xl -mb-2">Johnny Walker's Fitness</h1>
+                <h1 className="font-bold text-xl -mb-2 font-dela">Johnny Walker's Fitness</h1>
             </Link>
-            <div className="hidden md:block">
+            <div className="hidden md:flex gap-6 items-center">
                 <ul className="flex gap-6">
-                    <Link className="border-b-2 border-b-transparent hover:border-b-white -mb-2 transition-all text-center" href="/service"><li>Service</li></Link>
-                    <Link className="border-b-2 border-b-transparent hover:border-b-white -mb-2 transition-all text-center" href="/about"><li>About Johnny</li></Link>
-                    <Link className="border-b-2 border-b-transparent hover:border-b-white -mb-2 transition-all text-center" href="/contact"><li>Contact</li></Link>
+                    {links.map((link) => (
+                        <li key={link.href}>
+                            <Link className="text-center relative" href={link.href}>
+                                {link.href === path && (
+                                <motion.span layoutId="underline" className="absolute left-0 top-full mt-1 block rounded-2xl h-[1px] w-full bg-white"/>
+                                )}
+                                {link.label}
+                            </Link>
+                        </li>
+                    )) }
                 </ul>
             </div>
         </nav>

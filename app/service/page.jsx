@@ -17,7 +17,7 @@ export default function Service () {
                 alt="Johnny Walker standing in front of a mirror" 
                 className="brightness-50 h-full object-cover object-center lg:object-top"/>
             </div>
-            {/* <ServiceColumn /> */}
+            <ServiceColumn />
         </div>
     )
 }
