@@ -13,8 +13,8 @@ export default function Hero () {
             className="brightness-50 object-cover h-full object-[32%] md:w-full lg:object-[75%15%]"
             />
             <div className="absolute z-10 bottom-[10%] flex gap-3 md:gap-3 md:text-right md:items-end md:right-10 lg:gap-4 flex-col mx-8 md:mx-6 lg:mx-8">
-            <h1 className="text-[2.5rem] leading-tight font-semibold md:text-6xl text-white font-dela" >
-                Meet Your <br/> Fitness Expert <br/> Johnny Walker
+            <h1 className="text-[2.5rem] leading-tight font-semibold md:text-6xl text-white font-dela shadow-xl" >
+                Meet Your <br/> Fitness Expert <br/> <span className="text-off-white">Johnny Walker</span>
             </h1>
             <p className="text-white text-sm md:text-lg">
                 Book a consultant session with Johnny today.
