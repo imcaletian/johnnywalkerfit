@@ -28,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${dela.variable} ${poppins.variable} font-poppins`}>
-      <body>
+      <body className='max-w-[1280px] bg-slate-900 mx-auto shadow-xl shadow-black'>
         <Nav />
         {children}
         <Footer />

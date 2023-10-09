@@ -17,7 +17,7 @@ export default function NavMenu ({sideNav, setSideNav}) {
              </button>
                 <ul className="flex flex-col justify-center items-center h-full font-semibold divide-y-2 divide-accent-1">
                     <Link className="text-white text-center text-xl py-6 w-32" onClick={()=> setSideNav(false)} href="/service"><li>Services</li></Link>
-                    <Link className="text-white text-center text-xl py-6 w-32" onClick={()=> setSideNav(false)} href="/about"><li>About Johnny</li></Link>
+                    {/* <Link className="text-white text-center text-xl py-6 w-32" onClick={()=> setSideNav(false)} href="/about"><li>About Johnny</li></Link> */}
                     <Link className="text-white text-center text-xl py-6 w-32" onClick={()=> setSideNav(false)} href="/contact"><li>Contact</li></Link>
                 </ul>
             </div>
