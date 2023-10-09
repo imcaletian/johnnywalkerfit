@@ -23,13 +23,13 @@ export default function ServiceColumn () {
       //     </div>
       //   </section>
       // </div>
-      <div className=" overflow-hidden w-screen h-[79vh] md:h-[55vh] relative select-none max-w-[1280px]">
+      <div className="overflow-hidden w-screen h-[850px] md:h-[55vh] relative select-none max-w-[1280px]">
         <Image src="https://res.cloudinary.com/dtsllu9jj/image/upload/v1696740124/johnny/IMG_6812_bfk5ja.jpg" 
         height={2000} 
         width={1500}
-        className=" brightness-[40%] object-cover h-full w-full lg:object-[75%40%]" />
-        <div className="absolute z-10 text-white top-0 p-20 w-full h-full">
-          <div className="flex flex-col justify-center items-center gap-12 md:flex-row md:justify-between md:items-center md:h-full">
+        className=" brightness-[40%] object-cover h-full lg:object-[75%40%]" />
+        <div className="absolute z-10 text-white top-0 p-[15%] w-full h-full">
+          <div className="flex flex-col justify-center items-center gap-16 md:gap-20 md:flex-row md:justify-between md:items-center md:h-full">
             <div className="w-full flex flex-col items-center">
           <h1 className='text-3xl font-semibold py-4 font-dela text-center'>Personal Training</h1>
             <ul className='text-center'>
