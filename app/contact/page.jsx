@@ -40,16 +40,16 @@ export default function Contact () {
     return(
         <div className="bg-accent-2 flex flex-col md:flex-row md:h-[48rem] items-center text-white" >
             <div className="bg-slate-600 md:block md:w-1/2 md:h-full lg:w-1/2">
-            <Image src="https://res.cloudinary.com/dtsllu9jj/image/upload/v1679532882/johnny/Rope_Pull_Amazing_kse2s9.jpg"
+            <Image src="https://res.cloudinary.com/dtsllu9jj/image/upload/v1696740146/johnny/IMG_6825_gkphgf.jpg"
                 height="1200"
-                width="1200"
-                className="object-cover h-full object-left-top"
+                width={1000}
+                className="object-cover h-full object-top"
                 alt="placeholder"
                 />
             </div>
-            <div className="h-full md:w-1/2 lg:w-[40%] mx-auto py-12 bg-gradient-to-b from-transparent via-accent-2 to-accent-4 absolute md:static md:bg-gradient-to-b md:from-accent-2 md:to-accent-2 top-32">
+            <div className="h-full md:w-1/2 lg:w-[40%] mx-auto py-12 bg-gradient-to-b from-transparent via-accent-2 to-accent-4 md:static md:bg-gradient-to-b md:from-accent-2 md:to-accent-2 top-32">
                 <div className="p-8 mb-3 text-center pt-32">
-                    <p className="text-center md:h-32">In need of some new headshots for a brand new job? Looking to capture moments for your upcoming events? Or looking for something to make your vision come to life? Feel free to start the conversation with a quick summary of your occasion and we can start creating together!</p>
+                    <p className="text-center md:h-32">Are you ready to start reaching for your fitness and health goals? Feel free to leave Johnny your goals and we can go from there! </p>
                 </div>
                 <div>
                     <form className="flex flex-col items-center md:items-center gap-4 px-8 my-2" onSubmit={onSubmit}>

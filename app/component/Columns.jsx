@@ -23,7 +23,7 @@ export default function ServiceColumn () {
       //     </div>
       //   </section>
       // </div>
-      <div className="overflow-hidden w-screen h-[850px] md:h-[55vh] relative select-none max-w-[1280px]">
+      <div className="overflow-hidden w-screen h-[850px] md:h-[55vh] relative select-none max-w-[90rem]">
         <Image src="https://res.cloudinary.com/dtsllu9jj/image/upload/v1696740124/johnny/IMG_6812_bfk5ja.jpg" 
         height={2000} 
         width={1500}

@@ -7,14 +7,8 @@ export default function Footer () {
             <p>778-867-5646</p>
           </div>
           <div className="w-2/3 md:w-1/2">
-            <h2 className='font-semibold text-lg py-5 '>Office Hour</h2>
-            <p>Monday - Saturday</p>
-            <p>10:00 AM - 6:00 PM</p>
-            <p className='text-sm font-thin'>Photoshoot times vary depends on projects.</p>
-          </div>
-          <div className="w-2/3 md:w-1/2">
             <h2 className='font-semibold text-lg py-5 '>Location</h2>
-            <p>Vancouver, BC</p>
+            <p>555 W 8th Ave, Vancouver, BC V5Z 1C6</p>
           </div>
         </footer>
     )
