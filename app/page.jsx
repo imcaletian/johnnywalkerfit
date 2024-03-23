@@ -3,6 +3,7 @@ import Bio from './bio'
 import ServiceColumn from './component/Columns'
 import Testimonial from './component/Testimonials'
 import Introduction from './component/Introduction'
+import Contact from './contact/page'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Introduction />
       <ServiceColumn />
       <Testimonial />
+      {/* <Contact /> */}
     </main>
     </>
   )

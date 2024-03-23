@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Hero () {
     return (
         <div
-        className=" w-screen overflow-hidden h-[80vh] md:h-[30rem] lg:h-[36rem] relative select-none max-w-[1280px]"
+        className=" w-screen overflow-hidden h-[80vh] md:h-[30rem] lg:h-[36rem] relative select-none max-w-[90rem]"
         >
             <Image src="https://res.cloudinary.com/dtsllu9jj/image/upload/v1696740143/johnny/IMG_6822_xc0vzs.jpg"
             width={1500}
@@ -17,7 +17,7 @@ export default function Hero () {
                 Kick Start <br/> Your <br/> <span className="text-off-white">Fitness Journey</span>
             </h1>
             <p className="text-gray-200 text-sm md:text-lg">
-                Book a consultant session with Johnny today.
+                Book your first session with Johnny Walker today!
             </p>
             <Link href="/" className="flex justify-center px-2 md:px-3 py-3 text-[0.8rem] font-semibold shadow-md bg-white text-dark-2 rounded-md w-24 transition-colors hover:text-white hover:bg-accent-1">
                 Schedule
