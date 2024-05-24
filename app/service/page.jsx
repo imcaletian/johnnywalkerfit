@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Service () {
     return (
-        <div className="md:mt-24 w-full">
+        <div className="w-full">
             {/* <Header>
                 Service
             </Header> */}
