@@ -19,7 +19,7 @@ export default function Hero () {
             <p className="text-gray-200 text-sm md:text-lg">
                 Book your first session with Johnny Walker today!
             </p>
-            <Link href="/" className="flex justify-center px-2 md:px-3 py-3 text-[0.8rem] font-semibold shadow-md bg-white text-dark-2 rounded-md w-24 transition-colors hover:text-white hover:bg-accent-1">
+            <Link href="https://cale-8.youcanbook.me/" rel="noopener noreferrer" target="_blank" className="flex justify-center px-2 md:px-3 py-3 text-[0.8rem] font-semibold shadow-md bg-white text-dark-2 rounded-md w-24 transition-colors hover:text-white hover:bg-accent-1">
                 Schedule
             </Link>
             </div>
