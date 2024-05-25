@@ -15,7 +15,7 @@ export default function Testimonial () {
 
     return (
         <section className=" bg-accent-3 py-7 md:h-auto">
-            <h2 className="text-center my-8 text-2xl md:text-3xl font-semibold text-white">Testimonials</h2>
+            <h2 className="text-center my-8 text-2xl md:text-3xl font-semibold text-white font-dela">Testimonials</h2>
             <Slider {...settings} className="flex justify-center items-center mx-10 md:px-[10%]">
             <div className="bg-off-white text-accent-4 p-4 md:p-8 rounded-lg shadow-lg">
                 <p>"“I have worked out for years and have been desperately trying to grow my glutes and build a booty. Nothing has really worked until I started training with Johnny the improvement on my glutes and associated muscle groups have been phenomenal. Not only does Johnny create custom workouts to target my fitness goals and fit with my activity levels, but he also helps with and accommodates my pre-existing injuries. As someone who doesn’t love to workout, I truly look forward to my workouts with Johnny every week.” 
