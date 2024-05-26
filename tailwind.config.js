@@ -1,16 +1,21 @@
+const {nextui} = require('@nextui-org/theme');
+const { Roboto } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@nextui-org/theme/dist/components/(button|checkbox|modal|ripple|spinner).js"
   ],
   theme: {
     extend: {
       fontFamily: {
         dela: ['var(--font-dela)'],
         inter: ['var(--font-inter)s'],
-        poppins: ['var(--font-poppins)']
+        poppins: ['var(--font-poppins)'],
+        Roboto: ['var(--font-roboto)']
       },
       colors: {
         transparent: 'transparent',
@@ -26,6 +31,6 @@ module.exports = {
       },  
     },
   },
-  plugins: [],
+  plugins: [nextui()],
 }
 

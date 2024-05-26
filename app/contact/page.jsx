@@ -4,6 +4,8 @@ import { useRouter } from "next/navigation"
 import Image from "next/image"
 import { useState } from "react"
 import { toast, Toaster} from "react-hot-toast"
+import {Checkbox} from "@nextui-org/checkbox";
+
 
 export default function Contact () {
 
@@ -44,12 +46,13 @@ export default function Contact () {
               alt="placeholder"
               />
           </div>
-          <div className="relative h-[60rem] md:h-full md:w-1/2 lg:w-[40%]  mx-auto py-12 bg-gradient-to-b from-transparent via-accent-2 to-accent-4 md:static md:bg-gradient-to-b md:from-accent-2 md:to-accent-2 top-24 ">
-              <div className="p-8 mb-3 text-center pt-32">
-                  <p className="text-center font-medium text-2xl md:h-32">"Are you ready to start reaching for your fitness and health goals? Feel free to leave Johnny your goals and we can go from there!" <br/> - Johnny Walker</p>
+          <div className="relative h-[48rem] md:h-full md:w-1/2 lg:w-[40%]  mx-auto pt-10 bg-gradient-to-b from-transparent via-accent-2 to-accent-4 md:static md:bg-gradient-to-b md:from-accent-2 md:to-accent-2 top-18 ">
+              <div className="p-4 mb-8 text-center pt-32 flex flex-col gap-2">
+                  <p className="text-center font-medium text-xl md:h-32">"Are you ready to start reaching for your fitness and health goals? Feel free to share your goals with me and we can go from there!" </p>
+                  <p>- Johnny</p>
               </div>
               <div>
-                  <form className="flex flex-col items-center md:items-center gap-4 px-8 my-2" onSubmit={sendEmail} >
+                  <form className="flex flex-col items-center md:items-center gap-2 px-8" onSubmit={sendEmail} >
                       <input value={data.name} onChange={e => setData({...data, name: e.target.value})} type="text" placeholder="Name" className="w-full max-w-xs rounded-md px-4 py-2 shadow-md bg-orange-100 text-black" />
                       <input value={data.email} onChange={e => setData({...data, email: e.target.value})} type="email" placeholder="Email" className="w-full max-w-xs rounded-md px-4 py-2 shadow-md bg-orange-100 text-black" />
                       <textarea value={data.message} onChange={e => setData({...data, message: e.target.value})} type="text" className="w-full max-w-xs rounded-md px-4 py-2 h-24 shadow-md resize-none bg-orange-100 text-black" placeholder="Message" />
@@ -57,13 +60,13 @@ export default function Contact () {
                         <p>
                           I'm looking for:
                         </p>
-                        <div className="flex flex-col md:flex-row gap-2 ">
+                        <div className="flex flex-col gap-2 ">
                           <div>
-                          <input type="checkbox" id="option1" name="option1" value="Training"/>
+                          <Checkbox><input type="checkbox" id="option1" name="option1" value="Training"/></Checkbox>
                           <label htmlFor="training">Personal Training</label>
                           </div>
                           <div>
-                          <input type="checkbox" id="option2" name="option2" value="Nutrition"/>
+                          <Checkbox><input type="checkbox" id="option2" name="option2" value="Nutrition"/></Checkbox>
                           <label htmlFor="training">Nutrition Coaching</label>
                           </div>
                         </div>
