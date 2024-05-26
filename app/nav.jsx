@@ -27,7 +27,7 @@ export default function Nav () {
                 <Image src="/icons/bars-solid.svg" width={24} height={24} alt="solid" className="invert" />
              </button>
             <Link href="/" className="py-4">
-                <h1 className="font-bold text-xl mb-2 font-dela">Johnny Walker's Fitness</h1>
+                <h1 className="font-bold text-large md:text-2xl mb-2 font-dela">Johnny Walker's Fitness</h1>
             </Link>
             <div className="hidden md:flex gap-6 items-center">
                 <ul className="flex gap-6 items-center">
