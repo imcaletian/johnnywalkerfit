@@ -1,8 +1,15 @@
-import bookingWidget from "../component/YCBM"
-export default function Booking () {
+'use client'
+
+import Script from "next/script"
+export default function Schedule () {
     return (
-        <>
-        <bookingWidget />
-        </>
+        <div className="">
+            <Script
+            src="https://embed.youcanbook.me"
+            async="true"
+            data-domain="johnnywalkersfitness"
+            data-content="schedule" 
+            strategy="lazyOnload"/>
+        </div>
     )
 }

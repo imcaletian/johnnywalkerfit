@@ -4,6 +4,8 @@ import { useRouter } from "next/navigation"
 import Image from "next/image"
 import { useState } from "react"
 import { toast, Toaster} from "react-hot-toast"
+import {Checkbox} from "@nextui-org/checkbox";
+
 
 export default function Contact () {
 
@@ -60,11 +62,11 @@ export default function Contact () {
                         </p>
                         <div className="flex flex-col gap-2 ">
                           <div>
-                          <input type="checkbox" id="option1" name="option1" value="Training"/>
+                          <Checkbox><input type="checkbox" id="option1" name="option1" value="Training"/></Checkbox>
                           <label htmlFor="training">Personal Training</label>
                           </div>
                           <div>
-                          <input type="checkbox" id="option2" name="option2" value="Nutrition"/>
+                          <Checkbox><input type="checkbox" id="option2" name="option2" value="Nutrition"/></Checkbox>
                           <label htmlFor="training">Nutrition Coaching</label>
                           </div>
                         </div>
