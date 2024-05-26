@@ -13,8 +13,8 @@ export default function Hero () {
             alt="Johnny training client with cable machine"
             className="brightness-50 object-cover h-full object-[32%] md:w-full lg:object-[75%15%]"
             />
-            <div className="absolute px-10 z-10 bottom-[10%] flex gap-3 md:gap-3 md:text-right md:items-end md:right-10 lg:gap-4 flex-col mx-8 md:mx-6 lg:mx-8">
-            <h1 className="text-[2.8rem] leading-tight font-semibold md:text-6xl text-white font-dela shadow-xl" >
+            <div className="absolute px-2 z-10 bottom-[10%] flex gap-3 md:gap-3 md:text-right md:items-end md:right-10 lg:gap-4 flex-col mx-8 md:mx-6 lg:mx-8">
+            <h1 className="text-4xl leading-tight font-semibold md:text-6xl text-white font-dela shadow-xl" >
                 Kick Start <br/> Your <br/> <span className="text-off-white">Fitness Journey</span>
             </h1>
             <p className="text-gray-200 text-sm md:text-lg ">
