@@ -15,7 +15,7 @@ export default function Hero () {
             />
             <div className="absolute px-2 z-10 bottom-[10%] flex gap-3 md:gap-3 md:text-right md:items-end md:right-10 lg:gap-4 flex-col mx-8 md:mx-6 lg:mx-8">
             <h1 className="text-4xl leading-tight font-semibold md:text-6xl text-white font-dela shadow-xl" >
-                Kick Start <br/> Your <br/> <span className="text-off-white">Fitness Journey</span>
+                Kick Start <br/> Your Fitness <br/>Journey
             </h1>
             <p className="text-gray-200 text-sm md:text-lg ">
                 Book your first session with Johnny Walker today!

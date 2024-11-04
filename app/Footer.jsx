@@ -22,7 +22,6 @@ export default function Footer () {
               <p className="text-xs text-center md:text-start">
                 Website by Yuxing Tian Media
               </p>
-
           </div>
         </footer>
     )

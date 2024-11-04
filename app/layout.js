@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from './Footer';
 import { Inter, Dela_Gothic_One, Poppins, Roboto } from 'next/font/google'
 import { Toaster } from 'react-hot-toast';
+import BookingWidget from "./component/YCBM"
+
 
 
 const inter = Inter({ 
@@ -39,7 +41,9 @@ export const metadata = {
   description: 'Johnny is an ACE Certified Personal Trainer and Precision Nutrition Certified Nutrition Coach based in Vancouver, BC.',
 }
 
+
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en" className={`${inter.variable} ${dela.variable} ${poppins.variable} ${roboto.variable} bg-slate-900`}>
       <body className='max-w-[90rem]  mx-auto shadow-xl shadow-black font-poppins'>
@@ -47,6 +51,7 @@ export default function RootLayout({ children }) {
         <Nav />
         {children}
         <Footer />
+        {/* <BookingWidget/> */}
       </body>
     </html>
   )
