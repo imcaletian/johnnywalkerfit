@@ -12,9 +12,9 @@ export default function ServiceColumn () {
             <div className="w-full flex flex-col items-center">
           <h1 className='text-3xl font-semibold py-4 font-dela text-center'>Personal Training</h1>
             <ul className='text-center'>
-              <li className='py-2 font-light capitalize'>1-1, 1-2 and group sessions</li>
+              <li className='py-2 font-light capitalize'>1-1, 2-1 and group training</li>
               <li className='py-2 font-light capitalize'>Strength and Conditioning for all levels</li>
-              <li className='py-2 font-light capitalize'>Tailored Workout Plans for personal needs</li>
+              <li className='py-2 font-light capitalize'>Individually Tailored Workout Plans</li>
               
             </ul>
             <Link href="/" className="flex justify-center px-2 md:px-3 py-3 text-[0.8rem] font-semibold shadow-md bg-accent-1 text-dark-2 rounded-md w-24 transition-colors hover:text-white hover:bg-accent-2 mt-2">

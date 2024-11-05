@@ -22,7 +22,7 @@ export default function Nav () {
     return (
         <div>
         <NavMenu sideNav={sideNav} setSideNav={setSideNav}/>
-        <nav className="flex flex-col md:flex-row md:py-4 gap-2 justify-between items-center md:px-6 lg:px-8 absolute z-10 w-full bg-transparent text-white max-w-[90rem]">
+        <nav className=" overflow-hidden flex flex-col md:flex-row md:py-4 gap-2 justify-between items-center md:px-6 lg:px-8 absolute z-10 w-full bg-transparent text-white max-w-[90rem]">
             <button className=" aspect-square w-8 rounded-md absolute top-0 left-0 font-bold text-2xl mt-3 ml-3 md:hidden " onClick={() => setSideNav(true)}>
                 <Image src="/icons/bars-solid.svg" width={24} height={24} alt="solid" className="invert" />
              </button>
