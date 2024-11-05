@@ -48,7 +48,7 @@ export default function Contact () {
           </div>
           <div className="relative h-[48rem] md:h-full md:w-1/2 lg:w-[40%]  mx-auto pt-10 bg-gradient-to-b from-transparent via-accent-2 to-accent-4 md:static md:bg-gradient-to-b md:from-accent-2 md:to-accent-2 top-18 ">
               <div className="p-4 mb-8 text-center pt-32 flex flex-col gap-2">
-                  <p className="text-center font-medium text-xl md:h-32">"Are you ready to start reaching for your fitness and health goals? Feel free to share your goals with me and we can go from there!" </p>
+                  <p className="text-center font-bold text-md md:h-32 italic">I’m here to help you reach your fitness and health goals. Tell me about your goals and we can build a plan together! </p>
                   <p>- Johnny</p>
               </div>
               <div>
@@ -60,14 +60,12 @@ export default function Contact () {
                         <p>
                           I'm looking for:
                         </p>
-                        <div className="flex flex-col gap-2 ">
+                        <div className="flex flex-col gap-2">
                           <div>
-                          <Checkbox><input type="checkbox" id="option1" name="option1" value="Training"/></Checkbox>
-                          <label htmlFor="training">Personal Training</label>
+                            <Checkbox>Personal Training</Checkbox>
                           </div>
                           <div>
-                          <Checkbox><input type="checkbox" id="option2" name="option2" value="Nutrition"/></Checkbox>
-                          <label htmlFor="training">Nutrition Coaching</label>
+                            <Checkbox>Nutritional Coaching</Checkbox>
                           </div>
                         </div>
                       </div>

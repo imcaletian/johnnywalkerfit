@@ -1,5 +1,6 @@
 'use client'
 import Slider from "react-slick";
+import Image from "next/image";
 
 
 export default function Testimonial () {
@@ -21,7 +22,7 @@ export default function Testimonial () {
     ]
 
     return (
-        <section className=" bg-accent-3 pt-10 md:h-auto md:p-10 ">
+        <section className=" bg-accent-3 pt-16 md:h-auto md:p-20">
             <h2 className="text-center text-2xl md:text-3xl font-semibold text-white font-dela">Testimonials</h2>
             <Slider {...settings} >
             {testimonials.map((testimonials) => 
