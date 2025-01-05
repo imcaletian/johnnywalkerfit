@@ -60,14 +60,6 @@ export default function Contact () {
                         <p>
                           I'm looking for:
                         </p>
-                        <div className="flex flex-col gap-2">
-                          <div>
-                            <Checkbox>Personal Training</Checkbox>
-                          </div>
-                          <div>
-                            <Checkbox>Nutritional Coaching</Checkbox>
-                          </div>
-                        </div>
                       </div>
                       <button className=" bg-accent-1 px-4 py-2 rounded-md hover:bg-accent-4 shadow-md hover:border-gray-900" type="submit">Submit</button>
                   </form>
