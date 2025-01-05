@@ -26,7 +26,7 @@ export default function Testimonial () {
             <h2 className="text-center text-2xl md:text-3xl font-semibold text-white font-dela">Testimonials</h2>
             <Slider {...settings} >
             {testimonials.map((testimonials) => 
-                        <div className=" text-off-white px-10 pt-5 font-semibold italic md:px-18 lg:px-24 xl:px-32">
+                        <div key={testimonials.key} className=" text-off-white px-10 pt-5 font-semibold italic md:px-18 lg:px-24 xl:px-32">
                             <p>"{testimonials.text}"</p>
                             <p className=" text-right font-semibold">- {testimonials.name}</p>
                         </div>
