@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from './Footer';
 import { Inter, Dela_Gothic_One, Poppins, Roboto } from 'next/font/google'
 import { Toaster } from 'react-hot-toast';
-import BookingWidget from "./component/YCBM"
 
 
 
