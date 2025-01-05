@@ -16,9 +16,9 @@ export default function Testimonial () {
     };
 
     const testimonials = [
-        {name: "Olivia", text: "Not only does Johnny create custom workouts to target my fitness goals and fit with my activity levels, but he also helps with and accommodates my pre-existing injuries. As someone who doesn’t love to workout, I truly look forward to my workouts with Johnny every week."},
-        {name: "Justin", text: "Johnny provides a safe environment that is dynamic, challenging and tailored to my body goals. He focuses on continuous learning and incorporates new techniques and workouts that better support my body. Coming from someone who previously never enjoyed working out, I highly recommend Johnny to anyone who wants to embrace a healthier lifestyle."},
-        {name: "Ivan", text: "Every workout session feels tailor-made, designed to bring out the best in me. Beyond the gym, Johnny’s expertise in nutrition has revolutionized my approach to healthy eating. His personalized meal plans are delightful and prove that nutrition can be both flavourful and exciting. For those seeking a friendly knowledgeable, and amusing gym trainer, Johnny is an unrivaled force."},
+        {name: "Olivia", key :"1" , text: "Not only does Johnny create custom workouts to target my fitness goals and fit with my activity levels, but he also helps with and accommodates my pre-existing injuries. As someone who doesn’t love to workout, I truly look forward to my workouts with Johnny every week."},
+        {name: "Justin", key :"2", text: "Johnny provides a safe environment that is dynamic, challenging and tailored to my body goals. He focuses on continuous learning and incorporates new techniques and workouts that better support my body. Coming from someone who previously never enjoyed working out, I highly recommend Johnny to anyone who wants to embrace a healthier lifestyle."},
+        {name: "Ivan",key :"3", text: "Every workout session feels tailor-made, designed to bring out the best in me. Beyond the gym, Johnny’s expertise in nutrition has revolutionized my approach to healthy eating. His personalized meal plans are delightful and prove that nutrition can be both flavourful and exciting. For those seeking a friendly knowledgeable, and amusing gym trainer, Johnny is an unrivaled force."},
     ]
 
     return (

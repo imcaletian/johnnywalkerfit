@@ -56,19 +56,6 @@ export default function Contact () {
                       <input value={data.name} onChange={e => setData({...data, name: e.target.value})} type="text" placeholder="Name" className="w-full max-w-xs rounded-md px-4 py-2 shadow-md bg-orange-100 text-black" />
                       <input value={data.email} onChange={e => setData({...data, email: e.target.value})} type="email" placeholder="Email" className="w-full max-w-xs rounded-md px-4 py-2 shadow-md bg-orange-100 text-black" />
                       <textarea value={data.message} onChange={e => setData({...data, message: e.target.value})} type="text" className="w-full max-w-xs rounded-md px-4 py-2 h-24 shadow-md resize-none bg-orange-100 text-black" placeholder="Message" />
-                      <div className=" m-2 flex items-center gap-8">
-                        <p>
-                          I'm looking for:
-                        </p>
-                        <div className="flex flex-col gap-2">
-                          <div>
-                            <Checkbox>Personal Training</Checkbox>
-                          </div>
-                          <div>
-                            <Checkbox>Nutritional Coaching</Checkbox>
-                          </div>
-                        </div>
-                      </div>
                       <button className=" bg-accent-1 px-4 py-2 rounded-md hover:bg-accent-4 shadow-md hover:border-gray-900" type="submit">Submit</button>
                   </form>
               </div>

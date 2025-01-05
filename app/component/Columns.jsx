@@ -17,7 +17,7 @@ export default function ServiceColumn () {
               <li className='py-2 font-light capitalize'>Individually Tailored Workout Plans</li>
               
             </ul>
-            <Link href="/" className="flex justify-center px-2 md:px-3 py-3 text-[0.8rem] font-semibold shadow-md bg-accent-1 text-dark-2 rounded-md w-24 transition-colors hover:text-white hover:bg-accent-2 mt-2">
+            <Link href="/service#pt" className="flex justify-center px-2 md:px-3 py-3 text-[0.8rem] font-semibold shadow-md bg-accent-1 text-dark-2 rounded-md w-24 transition-colors hover:text-white hover:bg-accent-2 mt-2">
                 Learn More
             </Link>
             </div>
@@ -29,7 +29,7 @@ export default function ServiceColumn () {
               <li className='py-2 font-light capitalize'>Nutrition Education</li>
               <li className='py-2 font-light capitalize'>Healthy Habit Formation</li>
             </ul>
-            <Link href="/nutrition" className="flex justify-center px-2 md:px-3 py-3 text-[0.8rem] font-semibold shadow-md bg-accent-1 text-dark-2 rounded-md w-24 transition-colors hover:text-white hover:bg-accent-2 mt-2">
+            <Link href="/service#nutrition" className="flex justify-center px-2 md:px-3 py-3 text-[0.8rem] font-semibold shadow-md bg-accent-1 text-dark-2 rounded-md w-24 transition-colors hover:text-white hover:bg-accent-2 mt-2">
             Learn More
             </Link>
             </div>
