@@ -17,7 +17,7 @@ export default function Service() {
       <div className="w-full">
         <div className="overflow-hidden h-[4rem] md:h-[6rem] lg:h-[6rem] bg-accent-1 grid"></div>
       </div>
-      <div className=" text-white bg-local bg-center bg-cover bg-black bg-[url('https://res.cloudinary.com/dtsllu9jj/image/upload/v1696740155/johnny/IMG_6829_wjceuv.jpg')] ">
+      <div id="pt" className=" text-white bg-local bg-center bg-cover bg-black bg-[url('https://res.cloudinary.com/dtsllu9jj/image/upload/v1696740155/johnny/IMG_6829_wjceuv.jpg')] ">
         <div className="p-20 backdrop-brightness-50 backdrop-blur-sm grid grid-flow-row md:grid-flow-col">
           <div className="grid gap-4 md:w-3/4">
             <h1 className=" font-dela text-3xl">
@@ -63,7 +63,7 @@ export default function Service() {
           </div>
         </div>
       </div>
-      <div className="text-white bg-local bg-center bg-cover bg-black bg-[url('https://res.cloudinary.com/dtsllu9jj/image/upload/v1730772559/How-Nutrition-Coaching-Can-Aid-in-Mental-Clarity-and-Focus-_yxkizv.jpg')]">
+      <div id="nutrition" className="text-white bg-local bg-center bg-cover bg-black bg-[url('https://res.cloudinary.com/dtsllu9jj/image/upload/v1730772559/How-Nutrition-Coaching-Can-Aid-in-Mental-Clarity-and-Focus-_yxkizv.jpg')]">
         <div className="p-20 backdrop-brightness-50 backdrop-blur-sm grid grid-flow-row md:grid-flow-col">
           <div className="grid gap-4 md:w-3/4">
             <h1 className=" font-dela text-3xl">Nutrition Coaching</h1>
