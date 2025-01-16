@@ -17,7 +17,7 @@ export default function NavMenu ({sideNav, setSideNav}) {
             className="absolute h-full w-full  bg-accent-4 z-50 bg-opacity-95">
                 <div className="h-full">
                 <Button color="primary" size="large" radius="sm" className=" max-w-24 m-3 absolute right-2 my-1/2 ">
-                    <Link href="https://johnnywalkersfitness.youcanbook.me/" rel="noopener noreferrer" target="_blank" >
+                    <Link href="https://johnnywalkersfitness.youcanbook.me/" rel="noopener noreferrer" target="_blank" className="text-md font-semibold">
                     Schedule
                 </Link>
                 </Button>
