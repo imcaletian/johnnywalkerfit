@@ -20,11 +20,11 @@ export default function Hero () {
             <p className="text-gray-200 text-sm md:text-lg ">
                 Book your first session with Johnny Walker today!
             </p>
-            <Button color="primary" size="large" radius="sm" className=" max-w-24 md:hidden">
-                <Link href="https://johnnywalkersfitness.youcanbook.me/" rel="noopener noreferrer" target="_blank" >
+            <Button color="primary" size="large" radius="lg" className="w-24 h-11 md:hidden">
+                <Link href="https://johnnywalkersfitness.youcanbook.me/" rel="noopener noreferrer" target="_blank" className="text-md font-semibold">
                 Schedule
                 </Link>
-            </Button>
+                </Button>
             </div>
         </div>
     )

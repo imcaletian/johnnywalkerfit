@@ -35,7 +35,7 @@ export default function Service() {
               request to enhance progress towards your goals.{" "}
             </p>
           </div>
-          <div className="py-5">
+          <div className="py-5 w-full">
             <Table removeWrapper hideHeader aria-label="Personal training">
               <TableHeader>
                 <TableColumn>1</TableColumn>
@@ -79,7 +79,7 @@ export default function Service() {
               your goals. 
             </p>
           </div>
-          <div className="py-5">
+          <div className="">
             <Table removeWrapper hideHeader aria-label="Nutrition Coaching">
               <TableHeader>
                 <TableColumn>1</TableColumn>

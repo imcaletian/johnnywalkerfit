@@ -12,10 +12,9 @@ export default function Nav () {
     const [sideNav, setSideNav] = useState (false)
 
     const links = [
-        {href: "/", label: "Home"},
-        {href: "/service", label: "Service"},
-        // {href: "/about", label: "About Johnny"},
-        {href: "/contact", label: "Contact"},
+        {href: "/", label: "Home", key:1},
+        {href: "/service", label: "Service", key:2},
+        {href: "/contact", label: "Contact", key:3},
     ]
     const path = usePathname();
 
@@ -32,7 +31,7 @@ export default function Nav () {
             <div className="hidden md:flex gap-6 items-center">
                 <ul className="flex gap-6 items-center">
                     {links.map((link) => (
-                        <li key={link.href}>
+                        <li key={link.key}>
                             <Link className="text-center relative" href={link.href}>
                                 {link.href === path && (
                                 <motion.span layoutId="underline" className="absolute left-0 top-full mt-1 block rounded-2xl h-[1px] w-full bg-white"/>
@@ -41,11 +40,11 @@ export default function Nav () {
                             </Link>
                         </li>
                     )) }
-                                <Button color="primary" size="large" radius="sm" className=" max-w-24">
-                <Link href="https://johnnywalkersfitness.youcanbook.me/" rel="noopener noreferrer" target="_blank" >
+                <Button color="primary" size="large" radius="lg" className="w-24 h-11">
+                <Link href="https://johnnywalkersfitness.youcanbook.me/" rel="noopener noreferrer" target="_blank" className="text-md font-semibold">
                 Schedule
                 </Link>
-            </Button>
+                </Button>
                 </ul>
             </div>  
         </nav>
