@@ -80,27 +80,35 @@ export default function Service() {
             </p>
           </div>
           <div className="py-5">
-            <Table removeWrapper hideHeader aria-label="Personal training">
+            <Table removeWrapper hideHeader aria-label="Nutrition Coaching">
               <TableHeader>
                 <TableColumn>1</TableColumn>
                 <TableColumn>2</TableColumn>
               </TableHeader>
               <TableBody>
                 <TableRow key="1">
-                  <TableCell>1 on 1 Session</TableCell>
-                  <TableCell>$95</TableCell>
+                  <TableCell>3 Month</TableCell>
+                  <TableCell>$250 per month</TableCell>
                 </TableRow>
                 <TableRow key="2">
-                  <TableCell>Partner Training (2 people)</TableCell>
-                  <TableCell>$120</TableCell>
+                  <TableCell>6 Month</TableCell>
+                  <TableCell>$225 per month</TableCell>
                 </TableRow>
                 <TableRow key="3">
-                  <TableCell>Small Group Training (3 People)</TableCell>
-                  <TableCell>$150</TableCell>
+                  <TableCell>12 Month</TableCell>
+                  <TableCell>$200 per month</TableCell>
                 </TableRow>
                 <TableRow key="4">
-                  <TableCell>Larger Group</TableCell>
-                  <TableCell>Please Consult For Rate</TableCell>
+                  <TableCell>1/2/3-Day Meal Plan (1 Month)</TableCell>
+                  <TableCell>$99</TableCell>
+                </TableRow>
+                <TableRow key="5">
+                  <TableCell>Calorie/Portion/Macro Guide</TableCell>
+                  <TableCell>$99</TableCell>
+                </TableRow>
+                <TableRow key="6">
+                  <TableCell>*Full payment is due upon the start of each plan.</TableCell>
+                  <TableCell></TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -124,27 +132,31 @@ export default function Service() {
             </p>
           </div>
           <div className="py-5">
-            <Table removeWrapper hideHeader aria-label="Personal training">
+            <Table removeWrapper hideHeader aria-label="Online Training">
               <TableHeader>
                 <TableColumn>1</TableColumn>
                 <TableColumn>2</TableColumn>
               </TableHeader>
               <TableBody>
                 <TableRow key="1">
-                  <TableCell>1 on 1 Session</TableCell>
-                  <TableCell>$95</TableCell>
+                  <TableCell>1 Month</TableCell>
+                  <TableCell>$250 per month</TableCell>
                 </TableRow>
                 <TableRow key="2">
-                  <TableCell>Partner Training (2 people)</TableCell>
-                  <TableCell>$120</TableCell>
+                  <TableCell>3 Months</TableCell>
+                  <TableCell>$225 per month ($675)</TableCell>
                 </TableRow>
                 <TableRow key="3">
-                  <TableCell>Small Group Training (3 People)</TableCell>
-                  <TableCell>$150</TableCell>
+                  <TableCell>6 Months</TableCell>
+                  <TableCell>$200 per month ($1200)</TableCell>
                 </TableRow>
                 <TableRow key="4">
-                  <TableCell>Larger Group</TableCell>
-                  <TableCell>Please Consult For Rate</TableCell>
+                  <TableCell>12 Months</TableCell>
+                  <TableCell>$150 per month ($1800)</TableCell>
+                </TableRow>
+                <TableRow key="5">
+                  <TableCell>*Full payment is due upon the start of each training program.</TableCell>
+                  <TableCell></TableCell>
                 </TableRow>
               </TableBody>
             </Table>
