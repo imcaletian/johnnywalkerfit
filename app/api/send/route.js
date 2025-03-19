@@ -10,16 +10,16 @@ export async function POST(request) {
     console.log("body", body)
     const { email, name, message } = body;
     const data = await resend.emails.send({
-        from: "John Walker <johnny@johnnywalkersfitness.ca>",
+        from: "John Walker <johnny@updates.johnnywalkersfitness.com>",
         to: email,
         bcc: ['johndavidwalker@hotmail.com'],
-        subject: "Hello From Johnny Walker!",
+        subject: "Thank you for contacting Johnny Walker's Fitness!",
         react: EmailTemplate ({firstName: name, message: message}),
     });
 
     if (data.status === 'success') {
+        console.log(data)
         return NextResponse.json({ message: 'Email Sucessfully Sent!' })
-
     }
     return NextResponse.json(data)
 } catch (error) {
