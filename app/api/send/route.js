@@ -13,13 +13,13 @@ export async function POST(request) {
         from: "John Walker <johnny@johnnywalkersfitness.ca>",
         to: email,
         bcc: ['johndavidwalker@hotmail.com'],
-        subject: "Hello From Johnny Walker!",
+        subject: "Thank you for contacting Johnny Walker's Fitness!",
         react: EmailTemplate ({firstName: name, message: message}),
     });
 
     if (data.status === 'success') {
+        console.log(data)
         return NextResponse.json({ message: 'Email Sucessfully Sent!' })
-
     }
     return NextResponse.json(data)
 } catch (error) {
